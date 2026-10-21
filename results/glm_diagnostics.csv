@@ -1,0 +1,4 @@
+"model","converged","iterations","max_abs_coefficient","min_training_probability","max_training_probability"
+"Four_variable",TRUE,7,27.9643190346293,0.000000310386151778717,0.999649150824934
+"Expanded",TRUE,8,41.4817064490511,0.000000000943314446371992,0.999997382379153
+"Full_sensitivity",TRUE,10,130.116688591933,2.22044604925031e-16,1

@@ -1,0 +1,39 @@
+# Local R state and installed dependencies
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.R_library/
+**/.R_library/
+packages/
+**/packages/
+.Renviron
+.Renviron.*
+.env
+.env.*
+*.log
+Rplots.pdf
+.DS_Store
+Thumbs.db
+
+# Download the original dataset from its publisher.
+data/*.csv
+
+# Keep only curated, public evaluation summaries under version control.
+results/*
+!results/classification_test.csv
+!results/regression_test.csv
+!results/threshold_test_comparison.csv
+!results/test_bootstrap_CI.csv
+!results/test_calibration.csv
+!results/subgroup_audit.csv
+!results/pca_variance.csv
+!results/outcome_sensitivity.csv
+!results/missing_strategy_sensitivity.csv
+!results/analysis_summary.csv
+!results/inference.csv
+!results/glm_diagnostics.csv
+
+# Do not publish consultation forms or raw assignment evidence.
+*Expert*Feedback*
+*Expert*Evidence*
